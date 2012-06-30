@@ -1,0 +1,10 @@
+Description: Tell libibverbs to look in /usr/lib/libibverbs for plugin library
+Author: Roland Dreier <roland@digitalvampire.org>
+
+Index: libcxgb4-deb.git/cxgb4.driver
+===================================================================
+--- libcxgb4-deb.git.orig/cxgb4.driver	2011-07-07 11:30:09.967590028 -0700
++++ libcxgb4-deb.git/cxgb4.driver	2011-07-07 11:30:18.877461266 -0700
+@@ -1 +1 @@
+-driver cxgb4
++driver /usr/lib/libibverbs/libcxgb4

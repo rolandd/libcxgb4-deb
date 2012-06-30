@@ -1,0 +1,5 @@
+libcxgb4 (1.3.0-1) unstable; urgency=low
+
+  * Initial Release.  (Closes: #624252)
+
+ -- Roland Dreier <rbd@debian.org>  Sat, 30 Jun 2012 09:45:36 -0700
