@@ -10,11 +10,11 @@ Package: libcxgb4-1
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libibverbs1 (>= 1.1.3)
-Description: Userspace driver for Chelsio T4-based iWARP adapters
- libcxgb4 is a device-specific driver for Chelsio T4-based iWARP (RDMA
- over IP/ethernet) adapters for the libibverbs library.  This allows
- userspace processes to access Chelsio iWARP hardware directly with
- low latency and low overhead.
+Description: Userspace driver for Chelsio T4- and T5-based iWARP adapters
+ libcxgb4 is a device-specific driver for Chelsio T4- and T5-based
+ iWARP (RDMA over IP/ethernet) adapters for the libibverbs library.
+ This allows userspace processes to access Chelsio iWARP hardware
+ directly with low latency and low overhead.
  .
  This package contains the loadable plug-in.
 
@@ -23,10 +23,10 @@ Section: libdevel
 Architecture: any
 Depends: ${misc:Depends}, libcxgb4-1 (= ${binary:Version})
 Description: Development files for the libcxgb4 driver
- libcxgb4 is a device-specific driver for Chelsio T4-based iWARP (RDMA
- over IP/ethernet) adapters for the libibverbs library.  This allows
- userspace processes to access Chelsio iWARP hardware directly with
- low latency and low overhead.
+ libcxgb4 is a device-specific driver for Chelsio T4- and T5-based
+ iWARP (RDMA over IP/ethernet) adapters for the libibverbs library.
+ This allows userspace processes to access Chelsio iWARP hardware
+ directly with low latency and low overhead.
  .
  This package contains static versions of libcxgb4 that may be linked
  directly to an application, which may be useful for debugging.
@@ -37,10 +37,10 @@ Priority: extra
 Architecture: any
 Depends: ${misc:Depends}, libcxgb4-1 (= ${binary:Version})
 Description: Debugging symbols for the libcxgb4 driver
- libcxgb4 is a device-specific driver for Chelsio T4-based iWARP (RDMA
- over IP/ethernet) adapters for the libibverbs library.  This allows
- userspace processes to access Chelsio iWARP hardware directly with
- low latency and low overhead.
+ libcxgb4 is a device-specific driver for Chelsio T4- and T5-based
+ iWARP (RDMA over IP/ethernet) adapters for the libibverbs library.
+ This allows userspace processes to access Chelsio iWARP hardware
+ directly with low latency and low overhead.
  .
  This package contains the debugging symbols associated with
  libcxgb4-1. They will automatically be used by gdb for debugging

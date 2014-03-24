@@ -4,7 +4,7 @@ Upstream-Contact: Steve Wise <swise@chelsio.com>
 Source: http://www.openfabrics.org/downloads/cxgb4/
 
 Files: *
-Copyright: Copyright (c) 2006-2010 Chelsio, Inc. All rights reserved.
+Copyright: Copyright (c) 2003-2014 Chelsio, Inc. All rights reserved.
 License: GPL-2 or BSD-2-clause
  libcxgb4 is licensed under a choice of one of two licenses.  You may
  choose to be licensed under the terms of the GNU General Public
